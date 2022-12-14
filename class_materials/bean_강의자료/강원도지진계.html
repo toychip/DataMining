@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6f45daccca3ccec43c239f5a9335988f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6f45daccca3ccec43c239f5a9335988f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6f45daccca3ccec43c239f5a9335988f = L.map(
+                "map_6f45daccca3ccec43c239f5a9335988f",
+                {
+                    center: [38.011952, 128.542213],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4077ff17212183c142064b88114e0956 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6f45daccca3ccec43c239f5a9335988f);
+        
+    
+            var marker_1a4b8cb98a15757134cabce41ee0cff3 = L.marker(
+                [38.0756503, 128.6191583],
+                {}
+            ).addTo(map_6f45daccca3ccec43c239f5a9335988f);
+        
+    
+        var popup_c033ea677b719966091d4c30e068abd3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8a6fb5212d43bace90c25690506d11b = $(`<div id="html_c8a6fb5212d43bace90c25690506d11b" style="width: 100.0%; height: 100.0%;">양양군청</div>`)[0];
+                popup_c033ea677b719966091d4c30e068abd3.setContent(html_c8a6fb5212d43bace90c25690506d11b);
+            
+        
+
+        marker_1a4b8cb98a15757134cabce41ee0cff3.bindPopup(popup_c033ea677b719966091d4c30e068abd3)
+        ;
+
+        
+    
+    
+            var marker_c4271ce83b3b439e059462b209def61d = L.marker(
+                [38.0119521, 128.5422133],
+                {}
+            ).addTo(map_6f45daccca3ccec43c239f5a9335988f);
+        
+    
+        var popup_b938df736cfc6a2d853c4301ec4121d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5e813efafdcc0f46f70a0256c984b6f = $(`<div id="html_c5e813efafdcc0f46f70a0256c984b6f" style="width: 100.0%; height: 100.0%;">양수발전소</div>`)[0];
+                popup_b938df736cfc6a2d853c4301ec4121d0.setContent(html_c5e813efafdcc0f46f70a0256c984b6f);
+            
+        
+
+        marker_c4271ce83b3b439e059462b209def61d.bindPopup(popup_b938df736cfc6a2d853c4301ec4121d0)
+        ;
+
+        
+    
+    
+            var marker_4dd73222b04870fc79ce3285b0a273f2 = L.marker(
+                [38.0119521, 128.5422133],
+                {}
+            ).addTo(map_6f45daccca3ccec43c239f5a9335988f);
+        
+    
+        var popup_bf876df0206138048c7e71418d22bdec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b12d16dc8b1706da8579bb17a43e5ca1 = $(`<div id="html_b12d16dc8b1706da8579bb17a43e5ca1" style="width: 100.0%; height: 100.0%;">양양공항</div>`)[0];
+                popup_bf876df0206138048c7e71418d22bdec.setContent(html_b12d16dc8b1706da8579bb17a43e5ca1);
+            
+        
+
+        marker_4dd73222b04870fc79ce3285b0a273f2.bindPopup(popup_bf876df0206138048c7e71418d22bdec)
+        ;
+
+        
+    
+</script>
+</html>
